@@ -1,0 +1,8 @@
+[package]
+name = "avr-embassy-usb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+avr-device = { version = "0.9.0", features = ["atmega32u4"] }
+embassy-usb-driver = "0.2.2"
